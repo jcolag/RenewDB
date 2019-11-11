@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: MyString
+  ref_number: MyString
+  applicant_name: MyString
+  work: 1
+
+two:
+  date: MyString
+  ref_number: MyString
+  applicant_name: MyString
+  work: 1

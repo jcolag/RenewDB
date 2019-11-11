@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @copyright.date %>
+</p>
+
+<p>
+  <strong>Ref number:</strong>
+  <%= @copyright.ref_number %>
+</p>
+
+<p>
+  <strong>Applicant name:</strong>
+  <%= @copyright.applicant_name %>
+</p>
+
+<p>
+  <strong>Work:</strong>
+  <%= @copyright.work %>
+</p>
+
+<%= link_to 'Edit', edit_copyright_path(@copyright) %> |
+<%= link_to 'Back', copyrights_path %>
